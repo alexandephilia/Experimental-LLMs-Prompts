@@ -1,0 +1,48 @@
+# atomWithToggle
+
+> `atomWithToggle` creates a new atom with a boolean as initial state & a setter function to toggle it.
+
+This avoids the boilerplate of having to set up another atom just to update the state of the first.
+
+```typescript
+import { WritableAtom, atom } from 'jotai'
+
+export function atomWithToggle(
+  initialValue?: boolean,
+): WritableAtom<boolean, [boolean?], void> {
+  const anAtom = atom(initialValue, (get, set, nextValue?: boolean) => {
+    const update = nextValue ?? !get(anAtom)
+    set(anAtom, update)
+  })
+  return anAtom as WritableAtom<boolean, [boolean?], void>
+}
+```
+
+An optional initial state can be provided as the first argument.
+
+The setter function can have an optional argument to force a particular state, such as if you want to make a setActive function out of it.
+
+Here is how it's used.
+
+```typescript
+import { atomWithToggle } from 'XXX'
+
+const isActiveAtom = atomWithToggle(true)
+```
+
+And in a component:
+
+```tsx
+const Toggle = () => {
+  const [isActive, toggle] = useAtom(isActiveAtom)
+  return (
+    <>
+      <button onClick={() => toggle()}>
+        isActive: {isActive ? 'yes' : 'no'}
+      </button>
+      <button onClick={() => toggle(true)}>force true</button>
+      <button onClick={() => toggle(false)}>force false</button>
+    </>
+  )
+}
+```

@@ -1,0 +1,55 @@
+# atomWithCompare
+
+> `atomWithCompare` creates atom that triggers updates when custom compare function `areEqual(prev, next)` is false.
+
+This can help you avoid unwanted re-renders by ignoring state changes that don't matter to your application.
+
+Note: Jotai uses `Object.is` internally to compare values when changes occur. If `areEqual(a, b)` returns false, but `Object.is(a, b)` returns true, Jotai will not trigger an update.
+
+```typescript
+import { atomWithReducer } from 'jotai/utils'
+
+export function atomWithCompare<Value>(
+  initialValue: Value,
+  areEqual: (prev: Value, next: Value) => boolean,
+) {
+  return atomWithReducer(initialValue, (prev: Value, next: Value) => {
+    if (areEqual(prev, next)) {
+      return prev
+    }
+    return next
+  })
+}
+```
+
+Here's how you'd use it to make an atom that ignores updates that are shallow-equal:
+
+```typescript
+import { atomWithCompare } from 'XXX'
+import { shallowEquals } from 'YYY'
+import { CSSProperties } from 'react'
+
+const styleAtom = atomWithCompare<CSSProperties>(
+  { backgroundColor: 'blue' },
+  shallowEquals,
+)
+```
+
+In a component:
+
+```tsx
+const StylePreview = () => {
+  const [styles, setStyles] = useAtom(styleAtom)
+  return (
+    <div>
+      <div styles={styles}>Style preview</div>
+      <button onClick={() => setStyles({ ...styles, backgroundColor: 'red' })}>
+        Set background to red
+      </button>
+      <button onClick={() => setStyles({ ...styles, fontSize: 32 })}>
+        Enlarge font
+      </button>
+    </div>
+  )
+}
+```

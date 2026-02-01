@@ -1,0 +1,21 @@
+# Reducer
+
+## atomWithReducer
+
+Ref: https://github.com/pmndrs/jotai/issues/38
+
+```javascript
+import { atomWithReducer } from 'jotai/utils'
+
+const countReducer = (prev, action) => {
+  if (action.type === 'inc') return prev + 1
+  if (action.type === 'dec') return prev - 1
+  throw new Error('unknown action type')
+}
+
+const countReducerAtom = atomWithReducer(0, countReducer)
+```
+
+## useReducerAtom
+
+See useReducerAtom recipe.

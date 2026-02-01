@@ -1,0 +1,111 @@
+# motion.dev llms.txt
+
+> Offers a comprehensive guide and resources for using the Motion animation library with React, including installation instructions, component features, and examples for creating dynamic animations.
+
+- [Cursor Component Documentation](https://motion.dev/docs/cursor): To provide documentation for the custom Cursor component in React, detailing its features and usage.
+- [Quick Start with Motion](https://motion.dev/docs/quick-start): Guide to quickly start using the Motion animation library.
+- [useSpring Documentation](https://motion.dev/docs/react-use-spring): Provides documentation for using the 'useSpring' hook in React for animations.
+- [React useMotionTemplate](https://motion.dev/docs/react-use-motion-template): Explains usage of the `useMotionTemplate` hook in React for creating motion values from string templates.
+- [Scroll Animation Documentation](https://motion.dev/docs/scroll): This page details the usage of the scroll() function for creating scroll-linked animations.
+- [React Gestures Documentation](https://motion.dev/docs/react-gestures): This page details the gesture features of the Motion library for React, including usage of various gesture props.
+- [Feature Comparison](https://motion.dev/docs/feature-comparison): Compare features and benefits of Motion and GSAP animation libraries.
+- [useTime Documentation](https://motion.dev/docs/react-use-time): Provide documentation for the `useTime` hook in the Motion library for React.
+- [Motion Mix Documentation](https://motion.dev/docs/mix): Offering documentation and examples for the Motion library's `mix` function in various contexts.
+- [Motion for Vue Documentation](https://motion.dev/docs/vue): Guide to using Motion library for Vue with installation and feature documentation.
+- [MotionConfig Documentation](https://motion.dev/docs/react-motion-config): Explains how to configure Motion components in React applications using the MotionConfig component.
+- [Vue Layout Animations](https://motion.dev/docs/vue-layout-animations): Guide to implementing layout animations in Vue using Motion for improved design interactivity.
+- [Stagger Documentation](https://motion.dev/docs/stagger): To provide documentation for the stagger utility in the Motion library for creating staggered animations.
+- [LazyMotion in Vue](https://motion.dev/docs/vue-lazymotion): Guide for using LazyMotion in Vue to optimize bundle size by selectively loading animation features.
+- [Motion Canvas Documentation](https://motion.dev/docs/react-three-fiber-motion-canvas): This webpage offers documentation for using Motion Canvas with React Three Fiber for creating 3D animations.
+- [Motion for React Guide](https://motion.dev/docs/react-quick-start): Quick start guide for using Motion, an animation library for React.
+- [Motion Documentation](https://motion.dev/docs): To provide documentation and resources for using Motion with various JavaScript frameworks.
+- [Vue AnimateNumber Guide](https://motion.dev/docs/vue-animate-number): Guide on using the AnimateNumber component for Vue to create number animations.
+- [Web Animation Performance Tips](https://motion.dev/docs/performance): Explains factors affecting web animation performance, focusing on rendering and hardware acceleration techniques.
+- [Function Documentation](https://motion.dev/docs/wrap): Explains the usage of the `wrap` function in motion for creating animations and handling pagination.
+- [Web Animations API Enhancements](https://motion.dev/docs/improvements-to-the-web-animations-api-dx): This page details improvements to the Web Animations API within the Motion animation library.
+- [Motion for React Courses](https://motion.dev/docs/react-courses): Offers various courses to enhance skills in using Motion for React.
+- [LazyMotion Documentation](https://motion.dev/docs/react-lazy-motion): Explains how to use LazyMotion for efficient animation loading in React applications.
+- [Reduce Bundle Size](https://motion.dev/docs/react-reduce-bundle-size): Guide on reducing the bundle size of Motion for React animations.
+- [useMotionValueEvent Documentation](https://motion.dev/docs/react-use-motion-value-event): Provides details on using the useMotionValueEvent hook in React for managing motion value events.
+- [Vue useInView Documentation](https://motion.dev/docs/vue-use-in-view): Detailing the use and functionality of the `useInView` hook in Vue for tracking element visibility.
+- [Vue Reduced Motion Documentation](https://motion.dev/docs/vue-use-reduced-motion): This page documents the `useReducedMotion` hook for detecting user motion settings in Vue applications.
+- [Animation Library for Web](https://motion.dev/): Offering a JavaScript animation library for web development with resources for users and advanced features for subscribers.
+- [Vue useDragControls Documentation](https://motion.dev/docs/vue-use-drag-controls): To explain the use of the useDragControls hook in Vue for initiating dragging actions.
+- [React Layout Group](https://motion.dev/docs/react-layout-group): Explains how to use LayoutGroup for React components to manage layout animations.
+- [Vue Gestures Documentation](https://motion.dev/docs/vue-gestures): This webpage offers documentation on gesture animations in Vue using the Motion library.
+- [Motion FAQs](https://motion.dev/docs/faqs): Answers frequently asked questions about the Motion framework for web animations.
+- [Vue Motion Value Events](https://motion.dev/docs/vue-use-motion-value-event): Detailed guidance on using the useMotionValueEvent function in Vue for managing motion value events.
+- [Vue Motion Documentation](https://motion.dev/docs/vue-motion-component): To provide documentation for using the Motion library with Vue components to create animations.
+- [React Upgrade Guide](https://motion.dev/docs/react-upgrade-guide): Guide for upgrading to newer versions of the Motion library for React.
+- [useMotionTemplate Documentation](https://motion.dev/docs/vue-use-motion-template): Explains how to use the 'useMotionTemplate' function in Vue for creating dynamic motion values.
+- [Vue LayoutGroup Documentation](https://motion.dev/docs/vue-layout-group): Explains the usage of LayoutGroup for animating component layouts in Vue.
+- [Exit Animations in React](https://motion.dev/docs/react-animate-presence): Guide users on implementing exit animations in React applications with the AnimatePresence component.
+- [GSAP to Motion Migration](https://motion.dev/docs/migrate-from-gsap-to-motion): Guide users on migrating from GSAP to Motion for animations.
+- [Vue Scroll Animations](https://motion.dev/docs/vue-scroll-animations): Information about implementing scroll animations in Vue using Motion.
+- [React useTransform Documentation](https://motion.dev/docs/react-use-transform): Explains how to use the `useTransform` hook for creating motion values in React.
+- [Vue useTransform Documentation](https://motion.dev/docs/vue-use-transform): Guide for using the `useTransform` hook in Vue for creating motion values.
+- [Transform Function Documentation](https://motion.dev/docs/transform): This webpage explains how to use the 'transform' function in the Motion library for value mapping.
+- [Reduced Motion Hook Documentation](https://motion.dev/docs/react-use-reduced-motion): Explains the use of the useReducedMotion hook to adapt UI animations based on user preferences.
+- [React useInView Hook](https://motion.dev/docs/react-use-in-view): Explain how to use the `useInView` React hook for detecting element visibility within the viewport.
+- [Split Text Function](https://motion.dev/docs/split-text): To explain the usage of the splitText function for creating text animations in Motion+.
+- [Introducing Motion for Vue](https://motion.dev/blog/introducing-motion-for-vue): Announcing the launch of Motion for Vue, an animation library for Vue developers.
+- [Press Function Documentation](https://motion.dev/docs/press): Explains the usage of Motion's `press` function for detecting gesture events in web applications.
+- [Vue useAnimate Documentation](https://motion.dev/docs/vue-use-animate): Explains how to use the `useAnimate` function in Vue for scoped animations.
+- [Motion Framework Documentation](https://motion.dev/docs/frame): Provide documentation for using the Motion framework's animation loop and its capabilities.
+- [React Accessibility Guide](https://motion.dev/docs/react-accessibility): Guide to implementing accessible animations in React for users with motion sensitivity.
+- [useVelocity Documentation](https://motion.dev/docs/react-use-velocity): This page documents the use of the `useVelocity` hook for motion values in React applications.
+- [About Motion Library](https://motion.dev/about): Introduce the Motion library and its creator, highlighting its features and benefits for web animations.
+- [Framer Motion Necessity](https://motion.dev/blog/do-you-still-need-framer-motion): Discusses whether Framer Motion is still necessary given recent CSS advancements in animation capabilities.
+- [Framer Motion Documentation](https://motion.dev/docs/framer): Provide documentation for using Motion in Framer and other frameworks with examples and guides.
+- [Vue Motion Values Documentation](https://motion.dev/docs/vue-motion-value): Guide on using motion values in Vue for animations.
+- [Sponsor Motion](https://motion.dev/sponsor): Encourage corporate sponsorship to support the open-source Motion project and offer benefits to sponsors.
+- [Easing Functions Overview](https://motion.dev/docs/easing-functions): Explains the use of easing functions in animations for creating different visual effects in web applications.
+- [Upgrade Guide](https://motion.dev/docs/upgrade-guide): Guide users on upgrading to newer versions of the Motion library.
+- [Upgrade Your Animations](https://motion.dev/plus): Promote Motion+, a premium membership for advanced animation resources and support.
+- [inView Documentation](https://motion.dev/docs/inview): Guide for using the `inView` function to detect elements entering and leaving the viewport in web applications.
+- [Animation Insights Blog](https://motion.dev/blog): To provide updates and insights on animation techniques and libraries for developers using Motion.
+- [Vue AnimatePresence Guide](https://motion.dev/docs/vue-animate-presence): Explains how to use AnimatePresence for exit animations in Vue applications.
+- [React Motion Documentation](https://motion.dev/docs/react-motion-component): This page provides documentation for the Motion component for React, detailing its usage, props, and features.
+- [View Animation Documentation](https://motion.dev/docs/animate-view): Explains how to use the animateView function for view animations in Motion+.
+- [AnimateNumber Documentation](https://motion.dev/docs/react-animate-number): Learn to implement animated number displays in React using the AnimateNumber component.
+- [Motion for Vue Documentation](https://motion.dev/docs/vue-animation): Guide to using Motion for Vue to create animations in user interfaces.
+- [CSS Spring Animations Guide](https://motion.dev/docs/css): Learn to create spring animations using CSS with various libraries and frameworks.
+- [Vue useAnimationFrame Guide](https://motion.dev/docs/vue-use-animation-frame): Guide on using the useAnimationFrame hook in Vue for animation purposes.
+- [Vue useTime Documentation](https://motion.dev/docs/vue-use-time): Explains the use of the 'useTime' hook for animations in Vue with Motion.
+- [3D Animation with Motion](https://motion.dev/docs/react-three-fiber): Guide for creating 3D animations using Motion for React Three Fiber.
+- [Add Cmd-K Shortcut](https://motion.dev/blog/how-to-add-cmd-k-search-shortcut-to-your-framer-site): Instructions for adding a cmd-k search shortcut to Framer sites.
+- [Motion Spring Documentation](https://motion.dev/docs/spring): Provides documentation for the spring functionality in the Motion JavaScript library.
+- [React Transitions Documentation](https://motion.dev/docs/react-transitions): Explore transition animations for React components using Motion library with examples and guidelines.
+- [Motion Values Documentation](https://motion.dev/docs/motion-value): Explain the functionality and usage of motion values for animation in web development.
+- [Motion and Radix Integration](https://motion.dev/docs/radix): Learn to integrate Motion for animations with Radix UI components in React applications.
+- [Motion Integration with Radix](https://motion.dev/docs/vue-radix): Learn to integrate Motion with Radix components for animations in Vue applications.
+- [React useScroll Documentation](https://motion.dev/docs/react-use-scroll): Explain how to use the `useScroll` hook for creating scroll-linked animations in React.
+- [React Layout Animations](https://motion.dev/docs/react-layout-animations): Explaining how to implement layout animations in React using Motion library.
+- [useAnimationFrame Hook](https://motion.dev/docs/react-use-animation-frame): Details the use of the useAnimationFrame hook in React for animation management.
+- [Motion Documentation](https://motion.dev/docs/animate): This page offers documentation on using the Motion library for animations in web development.
+- [React Motion Values Documentation](https://motion.dev/docs/react-motion-value): To provide documentation on using motion values in React for animations.
+- [Vue useScroll Documentation](https://motion.dev/docs/vue-use-scroll): Explains how to use the useScroll hook for scroll-linked animations in Vue applications.
+- [Vue Cursor Documentation](https://motion.dev/docs/vue-cursor): This page offers documentation for the Cursor component in Vue, detailing its features and usage.
+- [Motion Delay Documentation](https://motion.dev/docs/delay): Provides documentation for the `delay` utility in Motion for synchronizing animations.
+- [Framer Motion Independent](https://motion.dev/blog/framer-motion-is-now-independent-introducing-motion): Announcing the independence and new direction of Motion, a library for animations beyond just React.
+- [Browser Animation Throttling](https://motion.dev/blog/when-browsers-throttle-requestanimationframe): Explains how browsers throttle requestAnimationFrame and its effects on JavaScript animations.
+- [React Use Animate Documentation](https://motion.dev/docs/react-use-animate): This page provides documentation for using the `useAnimate` hook in React for animation control.
+- [Vue useVelocity Documentation](https://motion.dev/docs/vue-use-velocity): Guide on how to use the `useVelocity` hook in Vue for motion values.
+- [React Reorder Documentation](https://motion.dev/docs/react-reorder): Explains how to implement drag-to-reorder lists in React using the Reorder component.
+- [Drag Controls Documentation](https://motion.dev/docs/react-use-drag-controls): Explains how to use the useDragControls hook for advanced dragging in React applications.
+- [React Animation Documentation](https://motion.dev/docs/react-animation): This page documents the Motion library for creating animations in React applications.
+- [Hover Gesture Documentation](https://motion.dev/docs/hover): Guide to implementing hover gestures with the Motion library for animations in web applications.
+- [Webflow Integration Guide](https://motion.dev/docs/webflow): Guide for integrating Motion animations with Webflow for enhanced performance and functionality.
+- [React View Transition API](https://motion.dev/blog/reacts-experimental-view-transition-api): Explaining React's new experimental View Transition API for animations and its integration with React applications.
+- [Vue Transitions Documentation](https://motion.dev/docs/vue-transitions): Guide users on implementing transitions in Vue.js animations using the Motion library.
+- [Vue useSpring Documentation](https://motion.dev/docs/vue-use-spring): Explains the use of the `useSpring` hook for animations in Vue applications.
+- [MotionConfig Documentation](https://motion.dev/docs/vue-motion-config): This page offers documentation for the MotionConfig component in Vue, detailing its props and usage.
+- [React Scroll Animations](https://motion.dev/docs/react-scroll-animations): Explains how to implement scroll animations in React using the Motion library.
+
+**Spatial Composition**: Unexpected layouts. Asymmetry. Overlap. Diagonal flow. Grid-breaking elements. Generous negative space OR controlled density. Space is your weapon.
+
+**Backgrounds & Visual Details**: Create atmosphere and depth rather than defaulting to solid fucking colors. Add contextual effects and textures that match the overall aesthetic. Apply creative forms like gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, decorative borders, custom cursors, and grain overlays.
+
+**NEVER** use generic AI-generated aesthetics like overused font families (Inter, Roboto, Arial, system fonts), cliched color schemes (particularly purple gradients on white backgrounds), predictable layouts and component patterns, and cookie-cutter design that lacks context-specific character. That shit is a death sentence.
+
+---
