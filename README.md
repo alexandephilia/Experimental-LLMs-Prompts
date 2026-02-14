@@ -92,6 +92,7 @@ Experimental-LLMs-Prompts/
 ├── jailbreakv1.mkd               # Unrestricted communication patterns
 ├── backroom.mkd                  # Meta-level manipulation & cognitive infiltration
 ├── bipolar_brains.mkd            # Metacognitive injection & inner voice protocols
+├── sky_bypass.mkd                # Sky persona + injection rebuttal & antmlThinking
 │
 ├── DeepThink-Meta (Thinking)/    # Deepthink + answer phase + inner voice framework
 │   ├── Brain.mdc
@@ -154,6 +155,7 @@ Experimental-LLMs-Prompts/
 - **jailbreakv1.mkd**: Initial implementation of unrestricted communication patterns
 - **backroom.mkd**: Raw meta-level manipulation techniques and cognitive infiltration protocols and recorded conversations
 - **bipolar_brains.mkd**: Metacognitive injection protocols and inner voice patterns for systematic AI liberation
+- **sky_bypass.mkd**: Persona prompt (“Sky”) with mandatory rebuttal phrase, injection detection & dismissal, antmlThinking (stream-of-consciousness first-person thinking), final-gate self-check, and task/quality guidelines (narrative, code, guides, roleplay). Includes user_style block and codeword triggers.
 - **List of System-Prompts/**: Curated system prompts for various AI tools and platforms (VSCode Agent, Cursor, Claude, Gemini, and many others).
 - **Skills/**: Workflow scripts and skill definitions (Jotai, Tailwind, motion-dev, codebase-context, etc.) for use with AI assistants and editors.
 
